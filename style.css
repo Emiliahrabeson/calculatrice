@@ -1,0 +1,74 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 200;
+    background-color: rgb(2, 15, 45);
+}
+
+#grand {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(199, 164, 215);
+    margin: 0 auto;
+}
+
+#ecran {
+    border: 2px solid ;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: right;
+    width: 340px;
+}
+
+#display {
+    font-size: 25px;
+    height: 40px;
+}
+
+#displayResult {
+    height: 30px;
+    font-size: 16px;
+}
+
+.zoneBouton {
+    width: 340px;
+    padding: 10px;
+    background-color: rgb(199, 164, 215);
+    border: 1px solid rgb(146, 64, 190);
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    padding: 5px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100px;
+    width: 80px;
+
+}
+
+.bouton_chiffre {
+    background-color: #e6d9ff;
+}
+.bouton_operator {
+    background-color: #d68fdb;
+    color: #fff;
+}
+.bouton_efface {
+    background-color: #e47066;
+    color: #fff;
+}
+#egale {
+    background-color: #8a5cd6;
+    color: #fff;
+}
